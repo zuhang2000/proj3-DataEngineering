@@ -11,3 +11,8 @@
 
 ## Project Steps:
 * Create buckets on AWS S3 that stores the datasets to be worked with.
+![My Image](screenshots/bucketsS3.png)
+* Analyze the data through AWS Athena queries.
+* Applyy the technique of Data Dimensional Modelling (DDM) and create Dimensions Model and Facts Model.
+* Three dimensions table: dimRegion, dimHospital, dimDate. One fact table: factCovid.
+
