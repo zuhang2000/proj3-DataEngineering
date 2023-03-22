@@ -13,6 +13,7 @@
 * Create buckets on AWS S3 that stores the datasets to be worked with.
 ![My Image](screenshots/bucketsS3.png)
 * Analyze the data through AWS Athena queries.
-* Applyy the technique of Data Dimensional Modelling (DDM) and create Dimensions Model and Facts Model.
+* Applyy the technique of Data Dimensional Modelling (DDM) and create Dimensions Model and Facts Model using Python.
 * Three dimensions table: dimRegion, dimHospital, dimDate. One fact table: factCovid.
-
+* Using python to store the models we just created to AWS S3.
+![My Image](screenshots/saveddms3.png)
